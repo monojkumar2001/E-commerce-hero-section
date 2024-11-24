@@ -4,8 +4,8 @@ import { Swiper, SwiperSlide } from "swiper/react";
 
 import "swiper/css";
 import "swiper/css/pagination";
-
-import { Pagination } from "swiper/modules";
+import "swiper/css/autoplay";
+import { Pagination, Autoplay } from "swiper/modules";
 import Image from "next/image";
 const HeroSilder = () => {
   return (
@@ -16,7 +16,12 @@ const HeroSilder = () => {
             pagination={{
               dynamicBullets: true,
             }}
-            modules={[Pagination]}
+            autoplay={{
+              delay: 3000,
+              disableOnInteraction: false,
+            }}
+            loop={true}
+            modules={[Pagination, Autoplay]}
             className="mySwiper"
           >
             <SwiperSlide>
