@@ -1,4 +1,3 @@
-
 @import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
 :root {
   --main-color: #f97316;
@@ -53,315 +52,7 @@ li {
     color-scheme: dark;
   }
 }
-
-/*!*******************************************************************************************************************************************************************************************************************************************************************!*\
-  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[10].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[10].use[3]!./src/styles/header.css ***!
-  \*******************************************************************************************************************************************************************************************************************************************************************/
-/*!*****************************************************************************************************************************************************************************************************************************************************************!*\
-  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[10].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[10].use[3]!./src/app/globals.css ***!
-  \*****************************************************************************************************************************************************************************************************************************************************************/
-@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
-:root {
-  --main-color: #f97316;
-  --black-color: #2e2e2e;
-  --white-color: #ffffff;
-  --body-color: #f0f0f0;
-  --body-font: "Inter", serif;
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
-}
-
-html,
-body {
-  max-width: 100vw;
-  overflow-x: hidden;
-}
-
-body {
-  color: var(--black-color);
-  background: var(--body-color);
-  font-family: var(--body-font);
-  font-size: 12px;
-  font-weight: 400;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
-* {
-  box-sizing: border-box;
-  padding: 0;
-  margin: 0;
-}
-
-a {
-  color: inherit;
-  text-decoration: none;
-}
-li {
-  list-style: none;
-}
-.container {
-  width: 1220px;
-  max-width: 100%;
-  margin: auto;
-}
-@media (prefers-color-scheme: dark) {
-  html {
-    color-scheme: dark;
-  }
-}
-
-/*!*******************************************************************************************************************************************************************************************************************************************************************!*\
-    !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[10].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[10].use[3]!./src/styles/header.css ***!
-    \*******************************************************************************************************************************************************************************************************************************************************************/
-/*!*****************************************************************************************************************************************************************************************************************************************************************!*\
-    !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[10].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[10].use[3]!./src/app/globals.css ***!
-    \*****************************************************************************************************************************************************************************************************************************************************************/
-@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
-:root {
-  --main-color: #f97316;
-  --black-color: #2e2e2e;
-  --white-color: #ffffff;
-  --body-color: #f0f0f0;
-  --body-font: "Inter", serif;
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
-}
-
-html,
-body {
-  max-width: 100vw;
-  overflow-x: hidden;
-}
-
-body {
-  color: var(--black-color);
-  background: var(--body-color);
-  font-family: var(--body-font);
-  font-size: 12px;
-  font-weight: 400;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
-* {
-  box-sizing: border-box;
-  padding: 0;
-  margin: 0;
-}
-
-a {
-  color: inherit;
-  text-decoration: none;
-}
-li {
-  list-style: none;
-}
-.container {
-  width: 1220px;
-  max-width: 100%;
-  margin: auto;
-}
-@media (prefers-color-scheme: dark) {
-  html {
-    color-scheme: dark;
-  }
-}
-
-/*!*******************************************************************************************************************************************************************************************************************************************************************!*\
-      !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[10].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[10].use[3]!./src/styles/header.css ***!
-      \*******************************************************************************************************************************************************************************************************************************************************************/
-/*!*****************************************************************************************************************************************************************************************************************************************************************!*\
-      !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[10].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[10].use[3]!./src/app/globals.css ***!
-      \*****************************************************************************************************************************************************************************************************************************************************************/
-@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
-:root {
-  --main-color: #f97316;
-  --black-color: #2e2e2e;
-  --white-color: #ffffff;
-  --body-color: #f0f0f0;
-  --body-font: "Inter", serif;
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
-}
-
-html,
-body {
-  max-width: 100vw;
-  overflow-x: hidden;
-}
-
-body {
-  color: var(--black-color);
-  background: var(--body-color);
-  font-family: var(--body-font);
-  font-size: 12px;
-  font-weight: 400;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
-* {
-  box-sizing: border-box;
-  padding: 0;
-  margin: 0;
-}
-
-a {
-  color: inherit;
-  text-decoration: none;
-}
-li {
-  list-style: none;
-}
-.container {
-  width: 1220px;
-  max-width: 100%;
-  margin: auto;
-}
-@media (prefers-color-scheme: dark) {
-  html {
-    color-scheme: dark;
-  }
-}
-
-/*!*******************************************************************************************************************************************************************************************************************************************************************!*\
-        !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[10].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[10].use[3]!./src/styles/header.css ***!
-        \*******************************************************************************************************************************************************************************************************************************************************************/
-/*!*****************************************************************************************************************************************************************************************************************************************************************!*\
-        !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[10].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[10].use[3]!./src/app/globals.css ***!
-        \*****************************************************************************************************************************************************************************************************************************************************************/
-@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
-:root {
-  --main-color: #f97316;
-  --black-color: #2e2e2e;
-  --white-color: #ffffff;
-  --body-color: #f0f0f0;
-  --body-font: "Inter", serif;
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
-}
-
-html,
-body {
-  max-width: 100vw;
-  overflow-x: hidden;
-}
-
-body {
-  color: var(--black-color);
-  background: var(--body-color);
-  font-family: var(--body-font);
-  font-size: 12px;
-  font-weight: 400;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
-* {
-  box-sizing: border-box;
-  padding: 0;
-  margin: 0;
-}
-
-a {
-  color: inherit;
-  text-decoration: none;
-}
-li {
-  list-style: none;
-}
-.container {
-  width: 1220px;
-  max-width: 100%;
-  margin: auto;
-}
-@media (prefers-color-scheme: dark) {
-  html {
-    color-scheme: dark;
-  }
-}
-
-/*!*******************************************************************************************************************************************************************************************************************************************************************!*\
-          !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[10].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[10].use[3]!./src/styles/header.css ***!
-          \*******************************************************************************************************************************************************************************************************************************************************************/
-/*!*****************************************************************************************************************************************************************************************************************************************************************!*\
-          !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[10].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[10].use[3]!./src/app/globals.css ***!
-          \*****************************************************************************************************************************************************************************************************************************************************************/
-@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
-:root {
-  --main-color: #f97316;
-  --black-color: #2e2e2e;
-  --white-color: #ffffff;
-  --body-color: #f0f0f0;
-  --body-font: "Inter", serif;
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
-}
-
-html,
-body {
-  max-width: 100vw;
-  overflow-x: hidden;
-}
-
-body {
-  color: var(--black-color);
-  background: var(--body-color);
-  font-family: var(--body-font);
-  font-size: 12px;
-  font-weight: 400;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
-* {
-  box-sizing: border-box;
-  padding: 0;
-  margin: 0;
-}
-
-a {
-  color: inherit;
-  text-decoration: none;
-}
-li {
-  list-style: none;
-}
-.container {
-  width: 1220px;
-  max-width: 100%;
-  margin: auto;
-}
-@media (prefers-color-scheme: dark) {
-  html {
-    color-scheme: dark;
-  }
-}
-
-/*!*******************************************************************************************************************************************************************************************************************************************************************!*\
-            !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[10].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[10].use[3]!./src/styles/header.css ***!
-            \*******************************************************************************************************************************************************************************************************************************************************************/
+/* ============ Top Header =========== */
 .top-header {
   background-color: #f0f1f1;
   padding: 5px 0;
@@ -469,7 +160,7 @@ button.form-search-btn {
   top: 60px;
   z-index: 2;
   background: var(--white-color, #fff);
-  width: 350px;
+  width: 230px;
 }
 
 .header-category-items .menu-vertical {
@@ -502,7 +193,7 @@ a.cate-megamenu-list {
 li.megamenu-container .megamenu {
   position: absolute;
   background: var(--white-color, #fff);
-  width: 350px;
+  width: 230px;
   left: 100%;
   top: 0px;
   display: none;
@@ -575,8 +266,7 @@ li.sub-menu-vertical-list .sub-megamenu {
   top: 0px;
   left: 100%;
   background: var(--white-color, #fff);
-  width: 350px;
-
+  width: 230px;
   display: none;
   opacity: 0;
   height: 100%;
@@ -589,8 +279,7 @@ li.sub-menu-vertical-list .sub-sub-megamenu {
   top: 0px;
   left: 100%;
   background: var(--white-color, #fff);
-  width: 350px;
-
+  width: 230px;
   display: none;
   opacity: 0;
   height: 100%;
@@ -605,6 +294,34 @@ li.sub-menu-vertical-list:hover .sub-megamenu {
   transform: translateY(0);
 }
 li.sub-sub-menu-vertical-list:hover .sub-sub-megamenu {
+  display: block;
+  opacity: 1;
+  transform: translateY(0);
+}
+ul.sub-sub-sub-menu-vertical {
+  display: flex;
+  flex-direction: column;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  padding: 12px 0;
+}
+
+.sub-sub-sub-megamenu {
+  position: absolute;
+  top: 0px;
+  left: 100%;
+  background: var(--white-color, #fff);
+  width: 230px;
+  display: none;
+  opacity: 0;
+  height: 100%;
+  transform: translateY(10px);
+  transition: opacity 0.3s ease, transform 0.3s ease;
+  border-left: 0.5px solid #d6d6d6;
+}
+
+li.sub-sub-menu-vertical-list:hover .sub-sub-sub-megamenu {
   display: block;
   opacity: 1;
   transform: translateY(0);

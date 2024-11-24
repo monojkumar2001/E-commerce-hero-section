@@ -121,8 +121,8 @@ const HeaderCategory = () => {
                                             )}
                                           </Link>
                                           {item.childrens && (
-                                            <div className="sub-sub-megamenu">
-                                              <ul className="sub-menu-vertical">
+                                            <div className="sub-sub-sub-megamenu">
+                                              <ul className="sub-sub-sub-menu-vertical">
                                                 {item.childrens.map(
                                                   (item, index) => (
                                                     <li
@@ -141,7 +141,7 @@ const HeaderCategory = () => {
                                                     >
                                                       <Link
                                                         href={item.link}
-                                                        className="sub-sub-megamenu-list"
+                                                        className="sub-sub-sub-megamenu-list"
                                                       >
                                                         <span>
                                                           {item.title}
@@ -150,9 +150,54 @@ const HeaderCategory = () => {
                                                           <MdKeyboardArrowRight />
                                                         )}
                                                       </Link>
-                                                      {/* {item.childrens && (
+                                                      {item.childrens && (
+                                                        <div className="sub-sub-sub-megamenu">
+                                                          <ul className="sub-sub-sub-menu-vertical">
+                                                            {item.childrens.map(
+                                                              (item, index) => (
+                                                                <li
+                                                                  className={`sub-sub-menu-vertical-list ${
+                                                                    subSubActive ===
+                                                                    index
+                                                                      ? "active"
+                                                                      : ""
+                                                                  }`}
+                                                                  onMouseEnter={() =>
+                                                                    setSubSubActive(
+                                                                      index
+                                                                    )
+                                                                  }
+                                                                  onMouseLeave={() =>
+                                                                    setSubSubActive(
+                                                                      null
+                                                                    )
+                                                                  }
+                                                                  key={index}
+                                                                >
+                                                                  <Link
+                                                                    href={
+                                                                      item.link
+                                                                    }
+                                                                    className="sub-sub-sub-megamenu-list"
+                                                                  >
+                                                                    <span>
+                                                                      {
+                                                                        item.title
+                                                                      }
+                                                                    </span>
+                                                                    {item.childrens && (
+                                                                      <MdKeyboardArrowRight />
+                                                                    )}
+                                                                  </Link>
+                                                                  {/* {item.childrens && (
                                                         <div className="sub-megamenu"></div>
                                                       )} */}
+                                                                </li>
+                                                              )
+                                                            )}
+                                                          </ul>
+                                                        </div>
+                                                      )}
                                                     </li>
                                                   )
                                                 )}
