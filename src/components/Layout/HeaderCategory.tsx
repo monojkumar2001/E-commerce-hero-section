@@ -2,14 +2,17 @@
 import Link from "next/link";
 import React, { useEffect, useState } from "react";
 import { MdKeyboardArrowRight } from "react-icons/md";
-
+interface MenuItem {
+  title: string;
+  link: string;
+  childrens?: MenuItem[];
+}
 const HeaderCategory = () => {
-  const [menuItems, setMenuItems] = useState([]);
+  const [menuItems, setMenuItems] = useState<MenuItem[]>([]);
   const [loading, setLoading] = useState(true);
-  const [error, setError] = useState(null);
-  const [catActive, setCatActive] = useState(null);
-  const [subActive, setSubActive] = useState(null);
-  const [subSubActive, setSubSubActive] = useState(null);
+  const [catActive, setCatActive] = useState<number | null>(null);
+  const [subActive, setSubActive] = useState<number | null>(null);
+  const [subSubActive, setSubSubActive] = useState<number | null>(null);
 
   const fetchMenuItems = async () => {
     try {
@@ -22,7 +25,11 @@ const HeaderCategory = () => {
       const data = await response.json();
       setMenuItems(data);
     } catch (error) {
-      setError(error.message);
+      if (error instanceof Error) {
+        console.error("An unexpected error occurred:", error.message);
+      } else {
+        console.error("An unexpected error occurred:", error);
+      }
     } finally {
       setLoading(false);
     }
